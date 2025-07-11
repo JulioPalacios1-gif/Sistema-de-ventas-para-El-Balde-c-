@@ -8,3 +8,14 @@ C:\Users\japvs\OneDrive\Escritorio\Sistema de ventas c#\Sistema de ventas para E
 C:\Users\japvs\OneDrive\Escritorio\Sistema de ventas c#\Sistema de ventas para El Balde\CapaVisual\obj\Debug\CapaVisual.csproj.CoreCompileInputs.cache
 C:\Users\japvs\OneDrive\Escritorio\Sistema de ventas c#\Sistema de ventas para El Balde\CapaVisual\obj\Debug\CapaVisual.exe
 C:\Users\japvs\OneDrive\Escritorio\Sistema de ventas c#\Sistema de ventas para El Balde\CapaVisual\obj\Debug\CapaVisual.pdb
+C:\Users\Estudiante\Desktop\Sistema-de-ventas-para-El-Balde-c-\Sistema de ventas para El Balde\CapaVisual\bin\Debug\CapaVisual.exe.config
+C:\Users\Estudiante\Desktop\Sistema-de-ventas-para-El-Balde-c-\Sistema de ventas para El Balde\CapaVisual\bin\Debug\CapaVisual.exe
+C:\Users\Estudiante\Desktop\Sistema-de-ventas-para-El-Balde-c-\Sistema de ventas para El Balde\CapaVisual\bin\Debug\CapaVisual.pdb
+C:\Users\Estudiante\Desktop\Sistema-de-ventas-para-El-Balde-c-\Sistema de ventas para El Balde\CapaVisual\obj\Debug\CapaVisual.csproj.AssemblyReference.cache
+C:\Users\Estudiante\Desktop\Sistema-de-ventas-para-El-Balde-c-\Sistema de ventas para El Balde\CapaVisual\obj\Debug\CapaVisual.frmInicio.resources
+C:\Users\Estudiante\Desktop\Sistema-de-ventas-para-El-Balde-c-\Sistema de ventas para El Balde\CapaVisual\obj\Debug\CapaVisual.Properties.Resources.resources
+C:\Users\Estudiante\Desktop\Sistema-de-ventas-para-El-Balde-c-\Sistema de ventas para El Balde\CapaVisual\obj\Debug\CapaVisual.csproj.GenerateResource.cache
+C:\Users\Estudiante\Desktop\Sistema-de-ventas-para-El-Balde-c-\Sistema de ventas para El Balde\CapaVisual\obj\Debug\CapaVisual.csproj.CoreCompileInputs.cache
+C:\Users\Estudiante\Desktop\Sistema-de-ventas-para-El-Balde-c-\Sistema de ventas para El Balde\CapaVisual\obj\Debug\CapaVisual.exe
+C:\Users\Estudiante\Desktop\Sistema-de-ventas-para-El-Balde-c-\Sistema de ventas para El Balde\CapaVisual\obj\Debug\CapaVisual.pdb
+C:\Users\Estudiante\Desktop\Sistema-de-ventas-para-El-Balde-c-\Sistema de ventas para El Balde\CapaVisual\obj\Debug\CapaVisual.frmLogin.resources

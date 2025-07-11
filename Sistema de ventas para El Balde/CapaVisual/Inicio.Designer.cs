@@ -30,18 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmInicio));
             this.gbEncabezado = new System.Windows.Forms.GroupBox();
-            this.lblTituloEncabezado = new System.Windows.Forms.Label();
-            this.lblUsuarioEncabezado = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
+            this.lblUsuarioEncabezado = new System.Windows.Forms.Label();
+            this.lblTituloEncabezado = new System.Windows.Forms.Label();
             this.gbModulos = new System.Windows.Forms.GroupBox();
-            this.btnUsuario = new System.Windows.Forms.Button();
-            this.btnVentas = new System.Windows.Forms.Button();
-            this.btnCompras = new System.Windows.Forms.Button();
-            this.btnProveedores = new System.Windows.Forms.Button();
-            this.btnClientes = new System.Windows.Forms.Button();
-            this.btnReportes = new System.Windows.Forms.Button();
-            this.btnMantenimiento = new System.Windows.Forms.Button();
             this.btnAcercaDe = new System.Windows.Forms.Button();
+            this.btnMantenimiento = new System.Windows.Forms.Button();
+            this.btnReportes = new System.Windows.Forms.Button();
+            this.btnClientes = new System.Windows.Forms.Button();
+            this.btnProveedores = new System.Windows.Forms.Button();
+            this.btnCompras = new System.Windows.Forms.Button();
+            this.btnVentas = new System.Windows.Forms.Button();
+            this.btnUsuario = new System.Windows.Forms.Button();
             this.pnlContenedor = new System.Windows.Forms.Panel();
             this.gbEncabezado.SuspendLayout();
             this.gbModulos.SuspendLayout();
@@ -59,30 +59,6 @@
             this.gbEncabezado.TabIndex = 0;
             this.gbEncabezado.TabStop = false;
             // 
-            // lblTituloEncabezado
-            // 
-            this.lblTituloEncabezado.AutoSize = true;
-            this.lblTituloEncabezado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTituloEncabezado.ForeColor = System.Drawing.Color.White;
-            this.lblTituloEncabezado.Location = new System.Drawing.Point(6, 21);
-            this.lblTituloEncabezado.Name = "lblTituloEncabezado";
-            this.lblTituloEncabezado.Size = new System.Drawing.Size(209, 25);
-            this.lblTituloEncabezado.TabIndex = 0;
-            this.lblTituloEncabezado.Text = "Sistema de Ventas";
-            this.lblTituloEncabezado.Click += new System.EventHandler(this.lblTituloEncabezado_Click);
-            // 
-            // lblUsuarioEncabezado
-            // 
-            this.lblUsuarioEncabezado.AutoSize = true;
-            this.lblUsuarioEncabezado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsuarioEncabezado.ForeColor = System.Drawing.Color.White;
-            this.lblUsuarioEncabezado.Location = new System.Drawing.Point(522, 32);
-            this.lblUsuarioEncabezado.Name = "lblUsuarioEncabezado";
-            this.lblUsuarioEncabezado.Size = new System.Drawing.Size(68, 20);
-            this.lblUsuarioEncabezado.TabIndex = 1;
-            this.lblUsuarioEncabezado.Text = "Usuario:";
-            this.lblUsuarioEncabezado.Click += new System.EventHandler(this.lblUsuarioEncabezado_Click);
-            // 
             // btnClose
             // 
             this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(36)))), ((int)(((byte)(39)))));
@@ -96,6 +72,30 @@
             this.btnClose.TabIndex = 2;
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // lblUsuarioEncabezado
+            // 
+            this.lblUsuarioEncabezado.AutoSize = true;
+            this.lblUsuarioEncabezado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuarioEncabezado.ForeColor = System.Drawing.Color.White;
+            this.lblUsuarioEncabezado.Location = new System.Drawing.Point(522, 32);
+            this.lblUsuarioEncabezado.Name = "lblUsuarioEncabezado";
+            this.lblUsuarioEncabezado.Size = new System.Drawing.Size(68, 20);
+            this.lblUsuarioEncabezado.TabIndex = 1;
+            this.lblUsuarioEncabezado.Text = "Usuario:";
+            this.lblUsuarioEncabezado.Click += new System.EventHandler(this.lblUsuarioEncabezado_Click);
+            // 
+            // lblTituloEncabezado
+            // 
+            this.lblTituloEncabezado.AutoSize = true;
+            this.lblTituloEncabezado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTituloEncabezado.ForeColor = System.Drawing.Color.White;
+            this.lblTituloEncabezado.Location = new System.Drawing.Point(6, 21);
+            this.lblTituloEncabezado.Name = "lblTituloEncabezado";
+            this.lblTituloEncabezado.Size = new System.Drawing.Size(209, 25);
+            this.lblTituloEncabezado.TabIndex = 0;
+            this.lblTituloEncabezado.Text = "Sistema de Ventas";
+            this.lblTituloEncabezado.Click += new System.EventHandler(this.lblTituloEncabezado_Click);
             // 
             // gbModulos
             // 
@@ -114,6 +114,105 @@
             this.gbModulos.TabIndex = 1;
             this.gbModulos.TabStop = false;
             // 
+            // btnAcercaDe
+            // 
+            this.btnAcercaDe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
+            this.btnAcercaDe.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnAcercaDe.Image = ((System.Drawing.Image)(resources.GetObject("btnAcercaDe.Image")));
+            this.btnAcercaDe.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnAcercaDe.Location = new System.Drawing.Point(0, 413);
+            this.btnAcercaDe.Name = "btnAcercaDe";
+            this.btnAcercaDe.Size = new System.Drawing.Size(99, 60);
+            this.btnAcercaDe.TabIndex = 7;
+            this.btnAcercaDe.Text = "Acerca De";
+            this.btnAcercaDe.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnAcercaDe.UseVisualStyleBackColor = false;
+            // 
+            // btnMantenimiento
+            // 
+            this.btnMantenimiento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
+            this.btnMantenimiento.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnMantenimiento.Image = ((System.Drawing.Image)(resources.GetObject("btnMantenimiento.Image")));
+            this.btnMantenimiento.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnMantenimiento.Location = new System.Drawing.Point(0, 354);
+            this.btnMantenimiento.Name = "btnMantenimiento";
+            this.btnMantenimiento.Size = new System.Drawing.Size(99, 60);
+            this.btnMantenimiento.TabIndex = 6;
+            this.btnMantenimiento.Text = "Mantenimiento";
+            this.btnMantenimiento.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnMantenimiento.UseVisualStyleBackColor = false;
+            // 
+            // btnReportes
+            // 
+            this.btnReportes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
+            this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnReportes.Image = ((System.Drawing.Image)(resources.GetObject("btnReportes.Image")));
+            this.btnReportes.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnReportes.Location = new System.Drawing.Point(0, 295);
+            this.btnReportes.Name = "btnReportes";
+            this.btnReportes.Size = new System.Drawing.Size(99, 60);
+            this.btnReportes.TabIndex = 5;
+            this.btnReportes.Text = "Reportes";
+            this.btnReportes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnReportes.UseVisualStyleBackColor = false;
+            // 
+            // btnClientes
+            // 
+            this.btnClientes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
+            this.btnClientes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnClientes.Image = ((System.Drawing.Image)(resources.GetObject("btnClientes.Image")));
+            this.btnClientes.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnClientes.Location = new System.Drawing.Point(0, 236);
+            this.btnClientes.Name = "btnClientes";
+            this.btnClientes.Size = new System.Drawing.Size(99, 60);
+            this.btnClientes.TabIndex = 4;
+            this.btnClientes.Text = "Clientes";
+            this.btnClientes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnClientes.UseVisualStyleBackColor = false;
+            // 
+            // btnProveedores
+            // 
+            this.btnProveedores.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
+            this.btnProveedores.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnProveedores.Image = ((System.Drawing.Image)(resources.GetObject("btnProveedores.Image")));
+            this.btnProveedores.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnProveedores.Location = new System.Drawing.Point(0, 177);
+            this.btnProveedores.Name = "btnProveedores";
+            this.btnProveedores.Size = new System.Drawing.Size(99, 60);
+            this.btnProveedores.TabIndex = 3;
+            this.btnProveedores.Text = "Proveedores";
+            this.btnProveedores.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnProveedores.UseVisualStyleBackColor = false;
+            // 
+            // btnCompras
+            // 
+            this.btnCompras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
+            this.btnCompras.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCompras.Image = ((System.Drawing.Image)(resources.GetObject("btnCompras.Image")));
+            this.btnCompras.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnCompras.Location = new System.Drawing.Point(0, 118);
+            this.btnCompras.Name = "btnCompras";
+            this.btnCompras.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnCompras.Size = new System.Drawing.Size(99, 60);
+            this.btnCompras.TabIndex = 2;
+            this.btnCompras.Text = "Compras";
+            this.btnCompras.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnCompras.UseVisualStyleBackColor = false;
+            // 
+            // btnVentas
+            // 
+            this.btnVentas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
+            this.btnVentas.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnVentas.Image = ((System.Drawing.Image)(resources.GetObject("btnVentas.Image")));
+            this.btnVentas.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnVentas.Location = new System.Drawing.Point(0, 59);
+            this.btnVentas.Name = "btnVentas";
+            this.btnVentas.Size = new System.Drawing.Size(99, 60);
+            this.btnVentas.TabIndex = 1;
+            this.btnVentas.Text = "Ventas";
+            this.btnVentas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnVentas.UseVisualStyleBackColor = false;
+            // 
             // btnUsuario
             // 
             this.btnUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
@@ -131,105 +230,6 @@
             this.btnUsuario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnUsuario.UseVisualStyleBackColor = false;
             this.btnUsuario.Click += new System.EventHandler(this.btnUsuario_Click);
-            // 
-            // btnVentas
-            // 
-            this.btnVentas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
-            this.btnVentas.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnVentas.Image = ((System.Drawing.Image)(resources.GetObject("btnVentas.Image")));
-            this.btnVentas.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnVentas.Location = new System.Drawing.Point(0, 59);
-            this.btnVentas.Name = "btnVentas";
-            this.btnVentas.Size = new System.Drawing.Size(99, 60);
-            this.btnVentas.TabIndex = 1;
-            this.btnVentas.Text = "Ventas";
-            this.btnVentas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnVentas.UseVisualStyleBackColor = false;
-            // 
-            // btnCompras
-            // 
-            this.btnCompras.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
-            this.btnCompras.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCompras.Image = ((System.Drawing.Image)(resources.GetObject("btnCompras.Image")));
-            this.btnCompras.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnCompras.Location = new System.Drawing.Point(0, 118);
-            this.btnCompras.Name = "btnCompras";
-            this.btnCompras.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnCompras.Size = new System.Drawing.Size(99, 60);
-            this.btnCompras.TabIndex = 2;
-            this.btnCompras.Text = "Compras";
-            this.btnCompras.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnCompras.UseVisualStyleBackColor = false;
-            // 
-            // btnProveedores
-            // 
-            this.btnProveedores.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
-            this.btnProveedores.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnProveedores.Image = ((System.Drawing.Image)(resources.GetObject("btnProveedores.Image")));
-            this.btnProveedores.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnProveedores.Location = new System.Drawing.Point(0, 177);
-            this.btnProveedores.Name = "btnProveedores";
-            this.btnProveedores.Size = new System.Drawing.Size(99, 60);
-            this.btnProveedores.TabIndex = 3;
-            this.btnProveedores.Text = "Proveedores";
-            this.btnProveedores.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnProveedores.UseVisualStyleBackColor = false;
-            // 
-            // btnClientes
-            // 
-            this.btnClientes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
-            this.btnClientes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnClientes.Image = ((System.Drawing.Image)(resources.GetObject("btnClientes.Image")));
-            this.btnClientes.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnClientes.Location = new System.Drawing.Point(0, 236);
-            this.btnClientes.Name = "btnClientes";
-            this.btnClientes.Size = new System.Drawing.Size(99, 60);
-            this.btnClientes.TabIndex = 4;
-            this.btnClientes.Text = "Clientes";
-            this.btnClientes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnClientes.UseVisualStyleBackColor = false;
-            // 
-            // btnReportes
-            // 
-            this.btnReportes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
-            this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnReportes.Image = ((System.Drawing.Image)(resources.GetObject("btnReportes.Image")));
-            this.btnReportes.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnReportes.Location = new System.Drawing.Point(0, 295);
-            this.btnReportes.Name = "btnReportes";
-            this.btnReportes.Size = new System.Drawing.Size(99, 60);
-            this.btnReportes.TabIndex = 5;
-            this.btnReportes.Text = "Reportes";
-            this.btnReportes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnReportes.UseVisualStyleBackColor = false;
-            // 
-            // btnMantenimiento
-            // 
-            this.btnMantenimiento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
-            this.btnMantenimiento.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnMantenimiento.Image = ((System.Drawing.Image)(resources.GetObject("btnMantenimiento.Image")));
-            this.btnMantenimiento.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnMantenimiento.Location = new System.Drawing.Point(0, 354);
-            this.btnMantenimiento.Name = "btnMantenimiento";
-            this.btnMantenimiento.Size = new System.Drawing.Size(99, 60);
-            this.btnMantenimiento.TabIndex = 6;
-            this.btnMantenimiento.Text = "Mantenimiento";
-            this.btnMantenimiento.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnMantenimiento.UseVisualStyleBackColor = false;
-            // 
-            // btnAcercaDe
-            // 
-            this.btnAcercaDe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(235)))), ((int)(((byte)(235)))));
-            this.btnAcercaDe.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnAcercaDe.Image = ((System.Drawing.Image)(resources.GetObject("btnAcercaDe.Image")));
-            this.btnAcercaDe.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnAcercaDe.Location = new System.Drawing.Point(0, 413);
-            this.btnAcercaDe.Name = "btnAcercaDe";
-            this.btnAcercaDe.Size = new System.Drawing.Size(99, 60);
-            this.btnAcercaDe.TabIndex = 7;
-            this.btnAcercaDe.Text = "Acerca De";
-            this.btnAcercaDe.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnAcercaDe.UseVisualStyleBackColor = false;
             // 
             // pnlContenedor
             // 
