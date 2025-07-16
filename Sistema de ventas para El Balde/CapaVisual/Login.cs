@@ -33,6 +33,26 @@ namespace CapaVisual
 
             form.Show();
             this.Hide();
+
+            form.FormClosing += frm_closing;
+        }
+
+        private void frm_closing(object sender, FormClosingEventArgs e)
+        {
+
+            txtUsuario.Text = "";
+            txtContrasena.Text = "";
+            this.Show();
+        }
+
+        private void txtUsuario_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtContrasena_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

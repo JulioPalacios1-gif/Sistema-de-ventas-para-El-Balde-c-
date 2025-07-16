@@ -30,12 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
             this.gbLogo = new System.Windows.Forms.GroupBox();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.lblIniciarSesion = new System.Windows.Forms.Label();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lblContraseña = new System.Windows.Forms.Label();
-            this.txtContraseña = new System.Windows.Forms.TextBox();
+            this.txtContrasena = new System.Windows.Forms.TextBox();
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.btnIngresar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
@@ -93,14 +93,15 @@
             this.lblContraseña.TabIndex = 3;
             this.lblContraseña.Text = "Contraseña";
             // 
-            // txtContraseña
+            // txtContrasena
             // 
-            this.txtContraseña.BackColor = System.Drawing.Color.White;
-            this.txtContraseña.Location = new System.Drawing.Point(336, 183);
-            this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.PasswordChar = '*';
-            this.txtContraseña.Size = new System.Drawing.Size(324, 20);
-            this.txtContraseña.TabIndex = 4;
+            this.txtContrasena.BackColor = System.Drawing.Color.White;
+            this.txtContrasena.Location = new System.Drawing.Point(336, 183);
+            this.txtContrasena.Name = "txtContrasena";
+            this.txtContrasena.PasswordChar = '*';
+            this.txtContrasena.Size = new System.Drawing.Size(324, 20);
+            this.txtContrasena.TabIndex = 4;
+            this.txtContrasena.TextChanged += new System.EventHandler(this.txtContrasena_TextChanged);
             // 
             // txtUsuario
             // 
@@ -109,10 +110,12 @@
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(324, 20);
             this.txtUsuario.TabIndex = 5;
+            this.txtUsuario.TextChanged += new System.EventHandler(this.txtUsuario_TextChanged);
             // 
             // btnIngresar
             // 
             this.btnIngresar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(154)))), ((int)(((byte)(91)))));
+            this.btnIngresar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnIngresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIngresar.Image = ((System.Drawing.Image)(resources.GetObject("btnIngresar.Image")));
@@ -129,6 +132,7 @@
             // btnCancelar
             // 
             this.btnCancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(108)))), ((int)(((byte)(62)))));
+            this.btnCancelar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelar.Image = ((System.Drawing.Image)(resources.GetObject("btnCancelar.Image")));
@@ -151,7 +155,7 @@
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnIngresar);
             this.Controls.Add(this.txtUsuario);
-            this.Controls.Add(this.txtContraseña);
+            this.Controls.Add(this.txtContrasena);
             this.Controls.Add(this.lblContraseña);
             this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.lblIniciarSesion);
@@ -176,7 +180,7 @@
         private System.Windows.Forms.Label lblIniciarSesion;
         private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.Label lblContraseña;
-        private System.Windows.Forms.TextBox txtContraseña;
+        private System.Windows.Forms.TextBox txtContrasena;
         private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.Button btnIngresar;
         private System.Windows.Forms.Button btnCancelar;

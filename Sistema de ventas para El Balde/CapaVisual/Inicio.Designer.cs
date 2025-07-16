@@ -248,6 +248,7 @@
             this.Controls.Add(this.gbModulos);
             this.Controls.Add(this.gbEncabezado);
             this.Name = "frmInicio";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio";
             this.gbEncabezado.ResumeLayout(false);
             this.gbEncabezado.PerformLayout();
