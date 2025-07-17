@@ -8,6 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using CapaNegocio;
+using CapaEntidad; //Se llama la referencia CapaEntidad que fue agregada al proyecto previamente
+
+
 namespace CapaVisual
 {
     public partial class frmLogin : Form
@@ -29,12 +33,30 @@ namespace CapaVisual
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            frmInicio form = new frmInicio();
+            List<Usuario> listaUsuarios = new CN_Usuario().Listar();
 
-            form.Show();
-            this.Hide();
+            Usuario oUsuario = new CN_Usuario().Listar().Where(u=> u.DocumentoUsuario == txtUsuario.Text && u.Clave == txtContrasena.Text).FirstOrDefault();
 
-            form.FormClosing += frm_closing;
+            // Verifica si el usuario existe en la lista de usuarios obtenida de la capa de negocio
+
+            if (oUsuario != null)
+            {
+                frmInicio form = new frmInicio();
+
+                form.Show();
+                this.Hide();
+
+                form.FormClosing += frm_closing;
+            }
+            else
+            {
+                MessageBox.Show("Usuario o contraseña incorrectos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtUsuario.Text = "";
+                txtContrasena.Text = "";
+                txtUsuario.Focus();
+            }
+
+
         }
 
         private void frm_closing(object sender, FormClosingEventArgs e)
