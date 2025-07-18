@@ -41,7 +41,7 @@ namespace CapaVisual
 
             if (oUsuario != null)
             {
-                frmInicio form = new frmInicio();
+                frmInicio form = new frmInicio(oUsuario);
 
                 form.Show();
                 this.Hide();

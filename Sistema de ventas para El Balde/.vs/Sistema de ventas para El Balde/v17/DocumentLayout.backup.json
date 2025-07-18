@@ -3,64 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6F992E5-9706-4FD1-8E8D-D87581D4F8A0}|CapaDatos\\CapaDatos.csproj|c:\\users\\japvs\\onedrive\\escritorio\\sistema-de-ventas-para-el-balde-c-\\sistema de ventas para el balde\\capadatos\\cd_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6F992E5-9706-4FD1-8E8D-D87581D4F8A0}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DC943DA-75BE-4FF5-A6BA-1C9EC84083DD}|CapaVisual\\CapaVisual.csproj|c:\\users\\japvs\\onedrive\\escritorio\\sistema-de-ventas-para-el-balde-c-\\sistema de ventas para el balde\\capavisual\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0DC943DA-75BE-4FF5-A6BA-1C9EC84083DD}|CapaVisual\\CapaVisual.csproj|solutionrelative:capavisual\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DC943DA-75BE-4FF5-A6BA-1C9EC84083DD}|CapaVisual\\CapaVisual.csproj|C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\capavisual\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DC943DA-75BE-4FF5-A6BA-1C9EC84083DD}|CapaVisual\\CapaVisual.csproj|solutionrelative:capavisual\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DC943DA-75BE-4FF5-A6BA-1C9EC84083DD}|CapaVisual\\CapaVisual.csproj|c:\\users\\japvs\\onedrive\\escritorio\\sistema-de-ventas-para-el-balde-c-\\sistema de ventas para el balde\\capavisual\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0DC943DA-75BE-4FF5-A6BA-1C9EC84083DD}|CapaVisual\\CapaVisual.csproj|solutionrelative:capavisual\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{566013A3-A9D0-47DA-8684-D7C202636FE9}|CapaEntidad\\CapaEntidad.csproj|C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\capaentidad\\datosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{566013A3-A9D0-47DA-8684-D7C202636FE9}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\datosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DC943DA-75BE-4FF5-A6BA-1C9EC84083DD}|CapaVisual\\CapaVisual.csproj|c:\\users\\japvs\\onedrive\\escritorio\\sistema-de-ventas-para-el-balde-c-\\sistema de ventas para el balde\\capavisual\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DC943DA-75BE-4FF5-A6BA-1C9EC84083DD}|CapaVisual\\CapaVisual.csproj|solutionrelative:capavisual\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DC943DA-75BE-4FF5-A6BA-1C9EC84083DD}|CapaVisual\\CapaVisual.csproj|C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\capavisual\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{0DC943DA-75BE-4FF5-A6BA-1C9EC84083DD}|CapaVisual\\CapaVisual.csproj|solutionrelative:capavisual\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DC943DA-75BE-4FF5-A6BA-1C9EC84083DD}|CapaVisual\\CapaVisual.csproj|C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\capavisual\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0DC943DA-75BE-4FF5-A6BA-1C9EC84083DD}|CapaVisual\\CapaVisual.csproj|c:\\users\\japvs\\onedrive\\escritorio\\sistema-de-ventas-para-el-balde-c-\\sistema de ventas para el balde\\capavisual\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0DC943DA-75BE-4FF5-A6BA-1C9EC84083DD}|CapaVisual\\CapaVisual.csproj|solutionrelative:capavisual\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6F992E5-9706-4FD1-8E8D-D87581D4F8A0}|CapaDatos\\CapaDatos.csproj|C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\capadatos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6F992E5-9706-4FD1-8E8D-D87581D4F8A0}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DC943DA-75BE-4FF5-A6BA-1C9EC84083DD}|CapaVisual\\CapaVisual.csproj|c:\\users\\japvs\\onedrive\\escritorio\\sistema-de-ventas-para-el-balde-c-\\sistema de ventas para el balde\\capavisual\\frmcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0DC943DA-75BE-4FF5-A6BA-1C9EC84083DD}|CapaVisual\\CapaVisual.csproj|solutionrelative:capavisual\\frmcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{566013A3-A9D0-47DA-8684-D7C202636FE9}|CapaEntidad\\CapaEntidad.csproj|C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\capaentidad\\tipodocumentocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{566013A3-A9D0-47DA-8684-D7C202636FE9}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\tipodocumentocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DC943DA-75BE-4FF5-A6BA-1C9EC84083DD}|CapaVisual\\CapaVisual.csproj|c:\\users\\japvs\\onedrive\\escritorio\\sistema-de-ventas-para-el-balde-c-\\sistema de ventas para el balde\\capavisual\\frmacercade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0DC943DA-75BE-4FF5-A6BA-1C9EC84083DD}|CapaVisual\\CapaVisual.csproj|solutionrelative:capavisual\\frmacercade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{566013A3-A9D0-47DA-8684-D7C202636FE9}|CapaEntidad\\CapaEntidad.csproj|C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\capaentidad\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{566013A3-A9D0-47DA-8684-D7C202636FE9}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B371F749-BD5A-418A-A43E-A99DB0D03790}|CapaNegocio\\CapaNegocio.csproj|C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\capanegocio\\cn_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B371F749-BD5A-418A-A43E-A99DB0D03790}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cn_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{566013A3-A9D0-47DA-8684-D7C202636FE9}|CapaEntidad\\CapaEntidad.csproj|C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\capaentidad\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{566013A3-A9D0-47DA-8684-D7C202636FE9}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{566013A3-A9D0-47DA-8684-D7C202636FE9}|CapaEntidad\\CapaEntidad.csproj|C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\capaentidad\\tipodocumentoventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{566013A3-A9D0-47DA-8684-D7C202636FE9}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\tipodocumentoventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{566013A3-A9D0-47DA-8684-D7C202636FE9}|CapaEntidad\\CapaEntidad.csproj|C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\capaentidad\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{566013A3-A9D0-47DA-8684-D7C202636FE9}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{566013A3-A9D0-47DA-8684-D7C202636FE9}|CapaEntidad\\CapaEntidad.csproj|C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\capaentidad\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{566013A3-A9D0-47DA-8684-D7C202636FE9}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\detalleventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{566013A3-A9D0-47DA-8684-D7C202636FE9}|CapaEntidad\\CapaEntidad.csproj|C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\capaentidad\\detallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{566013A3-A9D0-47DA-8684-D7C202636FE9}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\detallecompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{566013A3-A9D0-47DA-8684-D7C202636FE9}|CapaEntidad\\CapaEntidad.csproj|C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\capaentidad\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{566013A3-A9D0-47DA-8684-D7C202636FE9}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\compra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DC943DA-75BE-4FF5-A6BA-1C9EC84083DD}|CapaVisual\\CapaVisual.csproj|c:\\users\\japvs\\onedrive\\escritorio\\sistema-de-ventas-para-el-balde-c-\\sistema de ventas para el balde\\capavisual\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DC943DA-75BE-4FF5-A6BA-1C9EC84083DD}|CapaVisual\\CapaVisual.csproj|solutionrelative:capavisual\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,191 +38,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmCategoria.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaVisual\\frmCategoria.cs",
+              "RelativeDocumentMoniker": "CapaVisual\\frmCategoria.cs",
+              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaVisual\\frmCategoria.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaVisual\\frmCategoria.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T23:17:28.34Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaVisual\\Login.cs",
               "RelativeDocumentMoniker": "CapaVisual\\Login.cs",
               "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaVisual\\Login.cs",
               "RelativeToolTip": "CapaVisual\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T00:22:53.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaVisual\\App.config",
-              "RelativeDocumentMoniker": "CapaVisual\\App.config",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaVisual\\App.config",
-              "RelativeToolTip": "CapaVisual\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-07-16T23:32:10.2Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaEntidad\\Cliente.cs",
-              "RelativeDocumentMoniker": "CapaEntidad\\Cliente.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaEntidad\\Cliente.cs",
-              "RelativeToolTip": "CapaEntidad\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T23:10:41.178Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DatosNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaEntidad\\DatosNegocio.cs",
-              "RelativeDocumentMoniker": "CapaEntidad\\DatosNegocio.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaEntidad\\DatosNegocio.cs",
-              "RelativeToolTip": "CapaEntidad\\DatosNegocio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T23:22:15.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TipoDocumentoCompra.cs",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaEntidad\\TipoDocumentoCompra.cs",
-              "RelativeDocumentMoniker": "CapaEntidad\\TipoDocumentoCompra.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaEntidad\\TipoDocumentoCompra.cs",
-              "RelativeToolTip": "CapaEntidad\\TipoDocumentoCompra.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T23:01:17.645Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaDatos\\Conexion.cs",
-              "RelativeDocumentMoniker": "CapaDatos\\Conexion.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaDatos\\Conexion.cs",
-              "RelativeToolTip": "CapaDatos\\Conexion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T23:44:39.379Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CD_Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaDatos\\CD_Usuario.cs",
-              "RelativeDocumentMoniker": "CapaDatos\\CD_Usuario.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaDatos\\CD_Usuario.cs",
-              "RelativeToolTip": "CapaDatos\\CD_Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T23:57:20.367Z",
+              "WhenOpened": "2025-07-18T23:15:17.141Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Login.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaVisual\\Login.cs",
               "RelativeDocumentMoniker": "CapaVisual\\Login.cs",
               "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaVisual\\Login.cs [Dise\u00F1o]",
               "RelativeToolTip": "CapaVisual\\Login.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T00:22:46.271Z"
+              "WhenOpened": "2025-07-18T23:15:14.566Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaEntidad\\Producto.cs",
-              "RelativeDocumentMoniker": "CapaEntidad\\Producto.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaEntidad\\Producto.cs",
-              "RelativeToolTip": "CapaEntidad\\Producto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaVisual\\Inicio.cs",
+              "RelativeDocumentMoniker": "CapaVisual\\Inicio.cs",
+              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaVisual\\Inicio.cs",
+              "RelativeToolTip": "CapaVisual\\Inicio.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAQwG8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T22:51:48.358Z"
+              "WhenOpened": "2025-07-18T21:02:35.02Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DetalleCompra.cs",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaEntidad\\DetalleCompra.cs",
-              "RelativeDocumentMoniker": "CapaEntidad\\DetalleCompra.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaEntidad\\DetalleCompra.cs",
-              "RelativeToolTip": "CapaEntidad\\DetalleCompra.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "frmProducto.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaVisual\\frmProducto.cs",
+              "RelativeDocumentMoniker": "CapaVisual\\frmProducto.cs",
+              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaVisual\\frmProducto.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaVisual\\frmProducto.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T23:05:03.951Z"
+              "WhenOpened": "2025-07-18T22:00:12.756Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DetalleVenta.cs",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaEntidad\\DetalleVenta.cs",
-              "RelativeDocumentMoniker": "CapaEntidad\\DetalleVenta.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaEntidad\\DetalleVenta.cs",
-              "RelativeToolTip": "CapaEntidad\\DetalleVenta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "frmAcercaDe.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaVisual\\frmAcercaDe.cs",
+              "RelativeDocumentMoniker": "CapaVisual\\frmAcercaDe.cs",
+              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaVisual\\frmAcercaDe.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaVisual\\frmAcercaDe.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T23:19:51.123Z"
+              "WhenOpened": "2025-07-18T22:00:09.503Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CN_Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaNegocio\\CN_Usuario.cs",
-              "RelativeDocumentMoniker": "CapaNegocio\\CN_Usuario.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaNegocio\\CN_Usuario.cs",
-              "RelativeToolTip": "CapaNegocio\\CN_Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Inicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaVisual\\Inicio.cs",
+              "RelativeDocumentMoniker": "CapaVisual\\Inicio.cs",
+              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaVisual\\Inicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaVisual\\Inicio.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-17T00:19:06.844Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TipoDocumentoVenta.cs",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaEntidad\\TipoDocumentoVenta.cs",
-              "RelativeDocumentMoniker": "CapaEntidad\\TipoDocumentoVenta.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaEntidad\\TipoDocumentoVenta.cs",
-              "RelativeToolTip": "CapaEntidad\\TipoDocumentoVenta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T23:12:11.588Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Venta.cs",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaEntidad\\Venta.cs",
-              "RelativeDocumentMoniker": "CapaEntidad\\Venta.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaEntidad\\Venta.cs",
-              "RelativeToolTip": "CapaEntidad\\Venta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T23:13:29.983Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Compra.cs",
-              "DocumentMoniker": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaEntidad\\Compra.cs",
-              "RelativeDocumentMoniker": "CapaEntidad\\Compra.cs",
-              "ToolTip": "C:\\Users\\japvs\\OneDrive\\Escritorio\\Sistema-de-ventas-para-El-Balde-c-\\Sistema de ventas para El Balde\\CapaEntidad\\Compra.cs",
-              "RelativeToolTip": "CapaEntidad\\Compra.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-16T23:02:10.867Z"
+              "WhenOpened": "2025-07-18T21:02:23.732Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

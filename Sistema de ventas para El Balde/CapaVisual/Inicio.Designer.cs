@@ -28,8 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmInicio));
             this.gbEncabezado = new System.Windows.Forms.GroupBox();
+            this.lblUsuario = new System.Windows.Forms.Label();
             this.btnClose = new System.Windows.Forms.Button();
             this.lblUsuarioEncabezado = new System.Windows.Forms.Label();
             this.lblTituloEncabezado = new System.Windows.Forms.Label();
@@ -43,13 +45,23 @@
             this.btnVentas = new System.Windows.Forms.Button();
             this.btnUsuario = new System.Windows.Forms.Button();
             this.pnlContenedor = new System.Windows.Forms.Panel();
+            this.contextMenuStripMantenimiento = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.categoriaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.productoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.negocioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStripReportes = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.comprasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ventasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gbEncabezado.SuspendLayout();
             this.gbModulos.SuspendLayout();
+            this.contextMenuStripMantenimiento.SuspendLayout();
+            this.contextMenuStripReportes.SuspendLayout();
             this.SuspendLayout();
             // 
             // gbEncabezado
             // 
             this.gbEncabezado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(36)))), ((int)(((byte)(39)))));
+            this.gbEncabezado.Controls.Add(this.lblUsuario);
             this.gbEncabezado.Controls.Add(this.btnClose);
             this.gbEncabezado.Controls.Add(this.lblUsuarioEncabezado);
             this.gbEncabezado.Controls.Add(this.lblTituloEncabezado);
@@ -58,6 +70,17 @@
             this.gbEncabezado.Size = new System.Drawing.Size(900, 60);
             this.gbEncabezado.TabIndex = 0;
             this.gbEncabezado.TabStop = false;
+            // 
+            // lblUsuario
+            // 
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuario.ForeColor = System.Drawing.Color.White;
+            this.lblUsuario.Location = new System.Drawing.Point(596, 32);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(79, 20);
+            this.lblUsuario.TabIndex = 3;
+            this.lblUsuario.Text = "lblUsuario";
             // 
             // btnClose
             // 
@@ -127,6 +150,7 @@
             this.btnAcercaDe.Text = "Acerca De";
             this.btnAcercaDe.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAcercaDe.UseVisualStyleBackColor = false;
+            this.btnAcercaDe.Click += new System.EventHandler(this.btnAcercaDe_Click);
             // 
             // btnMantenimiento
             // 
@@ -141,6 +165,7 @@
             this.btnMantenimiento.Text = "Mantenimiento";
             this.btnMantenimiento.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnMantenimiento.UseVisualStyleBackColor = false;
+            this.btnMantenimiento.Click += new System.EventHandler(this.btnMantenimiento_Click);
             // 
             // btnReportes
             // 
@@ -155,6 +180,7 @@
             this.btnReportes.Text = "Reportes";
             this.btnReportes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnReportes.UseVisualStyleBackColor = false;
+            this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
             // 
             // btnClientes
             // 
@@ -169,6 +195,7 @@
             this.btnClientes.Text = "Clientes";
             this.btnClientes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnClientes.UseVisualStyleBackColor = false;
+            this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
             // 
             // btnProveedores
             // 
@@ -183,6 +210,7 @@
             this.btnProveedores.Text = "Proveedores";
             this.btnProveedores.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnProveedores.UseVisualStyleBackColor = false;
+            this.btnProveedores.Click += new System.EventHandler(this.btnProveedores_Click);
             // 
             // btnCompras
             // 
@@ -198,6 +226,7 @@
             this.btnCompras.Text = "Compras";
             this.btnCompras.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnCompras.UseVisualStyleBackColor = false;
+            this.btnCompras.Click += new System.EventHandler(this.btnCompras_Click);
             // 
             // btnVentas
             // 
@@ -212,6 +241,7 @@
             this.btnVentas.Text = "Ventas";
             this.btnVentas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnVentas.UseVisualStyleBackColor = false;
+            this.btnVentas.Click += new System.EventHandler(this.btnVentas_Click);
             // 
             // btnUsuario
             // 
@@ -235,8 +265,60 @@
             // 
             this.pnlContenedor.Location = new System.Drawing.Point(103, 57);
             this.pnlContenedor.Name = "pnlContenedor";
-            this.pnlContenedor.Size = new System.Drawing.Size(772, 492);
+            this.pnlContenedor.Size = new System.Drawing.Size(781, 505);
             this.pnlContenedor.TabIndex = 2;
+            // 
+            // contextMenuStripMantenimiento
+            // 
+            this.contextMenuStripMantenimiento.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.categoriaToolStripMenuItem,
+            this.productoToolStripMenuItem,
+            this.negocioToolStripMenuItem});
+            this.contextMenuStripMantenimiento.Name = "contextMenuStripMantenimiento";
+            this.contextMenuStripMantenimiento.Size = new System.Drawing.Size(126, 70);
+            // 
+            // categoriaToolStripMenuItem
+            // 
+            this.categoriaToolStripMenuItem.Name = "categoriaToolStripMenuItem";
+            this.categoriaToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.categoriaToolStripMenuItem.Text = "Categoria";
+            this.categoriaToolStripMenuItem.Click += new System.EventHandler(this.categoriaToolStripMenuItem_Click);
+            // 
+            // productoToolStripMenuItem
+            // 
+            this.productoToolStripMenuItem.Name = "productoToolStripMenuItem";
+            this.productoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.productoToolStripMenuItem.Text = "Producto";
+            this.productoToolStripMenuItem.Click += new System.EventHandler(this.productoToolStripMenuItem_Click);
+            // 
+            // negocioToolStripMenuItem
+            // 
+            this.negocioToolStripMenuItem.Name = "negocioToolStripMenuItem";
+            this.negocioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.negocioToolStripMenuItem.Text = "Negocio";
+            this.negocioToolStripMenuItem.Click += new System.EventHandler(this.negocioToolStripMenuItem_Click);
+            // 
+            // contextMenuStripReportes
+            // 
+            this.contextMenuStripReportes.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.comprasToolStripMenuItem,
+            this.ventasToolStripMenuItem});
+            this.contextMenuStripReportes.Name = "contextMenuStripReportes";
+            this.contextMenuStripReportes.Size = new System.Drawing.Size(123, 48);
+            // 
+            // comprasToolStripMenuItem
+            // 
+            this.comprasToolStripMenuItem.Name = "comprasToolStripMenuItem";
+            this.comprasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.comprasToolStripMenuItem.Text = "Compras";
+            this.comprasToolStripMenuItem.Click += new System.EventHandler(this.comprasToolStripMenuItem_Click);
+            // 
+            // ventasToolStripMenuItem
+            // 
+            this.ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
+            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ventasToolStripMenuItem.Text = "Ventas";
+            this.ventasToolStripMenuItem.Click += new System.EventHandler(this.ventasToolStripMenuItem_Click);
             // 
             // frmInicio
             // 
@@ -250,9 +332,12 @@
             this.Name = "frmInicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio";
+            this.Load += new System.EventHandler(this.frmInicio_Load);
             this.gbEncabezado.ResumeLayout(false);
             this.gbEncabezado.PerformLayout();
             this.gbModulos.ResumeLayout(false);
+            this.contextMenuStripMantenimiento.ResumeLayout(false);
+            this.contextMenuStripReportes.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -273,6 +358,14 @@
         private System.Windows.Forms.Button btnVentas;
         private System.Windows.Forms.Button btnUsuario;
         private System.Windows.Forms.Panel pnlContenedor;
+        private System.Windows.Forms.Label lblUsuario;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStripMantenimiento;
+        private System.Windows.Forms.ToolStripMenuItem categoriaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem productoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem negocioToolStripMenuItem;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStripReportes;
+        private System.Windows.Forms.ToolStripMenuItem comprasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ventasToolStripMenuItem;
     }
 }
 
