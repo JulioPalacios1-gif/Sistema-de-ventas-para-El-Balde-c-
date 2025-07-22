@@ -65,9 +65,11 @@
             this.gbEncabezado.Controls.Add(this.btnClose);
             this.gbEncabezado.Controls.Add(this.lblUsuarioEncabezado);
             this.gbEncabezado.Controls.Add(this.lblTituloEncabezado);
-            this.gbEncabezado.Location = new System.Drawing.Point(-2, -9);
+            this.gbEncabezado.Location = new System.Drawing.Point(-3, -14);
+            this.gbEncabezado.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.gbEncabezado.Name = "gbEncabezado";
-            this.gbEncabezado.Size = new System.Drawing.Size(900, 60);
+            this.gbEncabezado.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.gbEncabezado.Size = new System.Drawing.Size(1350, 92);
             this.gbEncabezado.TabIndex = 0;
             this.gbEncabezado.TabStop = false;
             // 
@@ -76,9 +78,10 @@
             this.lblUsuario.AutoSize = true;
             this.lblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsuario.ForeColor = System.Drawing.Color.White;
-            this.lblUsuario.Location = new System.Drawing.Point(596, 32);
+            this.lblUsuario.Location = new System.Drawing.Point(894, 49);
+            this.lblUsuario.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(79, 20);
+            this.lblUsuario.Size = new System.Drawing.Size(122, 29);
             this.lblUsuario.TabIndex = 3;
             this.lblUsuario.Text = "lblUsuario";
             // 
@@ -88,10 +91,10 @@
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(36)))), ((int)(((byte)(39)))));
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
-            this.btnClose.Location = new System.Drawing.Point(829, 16);
+            this.btnClose.Location = new System.Drawing.Point(1244, 25);
             this.btnClose.Margin = new System.Windows.Forms.Padding(0);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(48, 41);
+            this.btnClose.Size = new System.Drawing.Size(72, 63);
             this.btnClose.TabIndex = 2;
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -101,9 +104,10 @@
             this.lblUsuarioEncabezado.AutoSize = true;
             this.lblUsuarioEncabezado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsuarioEncabezado.ForeColor = System.Drawing.Color.White;
-            this.lblUsuarioEncabezado.Location = new System.Drawing.Point(522, 32);
+            this.lblUsuarioEncabezado.Location = new System.Drawing.Point(783, 49);
+            this.lblUsuarioEncabezado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblUsuarioEncabezado.Name = "lblUsuarioEncabezado";
-            this.lblUsuarioEncabezado.Size = new System.Drawing.Size(68, 20);
+            this.lblUsuarioEncabezado.Size = new System.Drawing.Size(102, 29);
             this.lblUsuarioEncabezado.TabIndex = 1;
             this.lblUsuarioEncabezado.Text = "Usuario:";
             this.lblUsuarioEncabezado.Click += new System.EventHandler(this.lblUsuarioEncabezado_Click);
@@ -113,9 +117,10 @@
             this.lblTituloEncabezado.AutoSize = true;
             this.lblTituloEncabezado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloEncabezado.ForeColor = System.Drawing.Color.White;
-            this.lblTituloEncabezado.Location = new System.Drawing.Point(6, 21);
+            this.lblTituloEncabezado.Location = new System.Drawing.Point(9, 32);
+            this.lblTituloEncabezado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTituloEncabezado.Name = "lblTituloEncabezado";
-            this.lblTituloEncabezado.Size = new System.Drawing.Size(209, 25);
+            this.lblTituloEncabezado.Size = new System.Drawing.Size(302, 37);
             this.lblTituloEncabezado.TabIndex = 0;
             this.lblTituloEncabezado.Text = "Sistema de Ventas";
             this.lblTituloEncabezado.Click += new System.EventHandler(this.lblTituloEncabezado_Click);
@@ -131,9 +136,11 @@
             this.gbModulos.Controls.Add(this.btnCompras);
             this.gbModulos.Controls.Add(this.btnVentas);
             this.gbModulos.Controls.Add(this.btnUsuario);
-            this.gbModulos.Location = new System.Drawing.Point(-2, 57);
+            this.gbModulos.Location = new System.Drawing.Point(-3, 88);
+            this.gbModulos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.gbModulos.Name = "gbModulos";
-            this.gbModulos.Size = new System.Drawing.Size(99, 505);
+            this.gbModulos.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.gbModulos.Size = new System.Drawing.Size(148, 777);
             this.gbModulos.TabIndex = 1;
             this.gbModulos.TabStop = false;
             // 
@@ -143,9 +150,10 @@
             this.btnAcercaDe.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnAcercaDe.Image = ((System.Drawing.Image)(resources.GetObject("btnAcercaDe.Image")));
             this.btnAcercaDe.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnAcercaDe.Location = new System.Drawing.Point(0, 413);
+            this.btnAcercaDe.Location = new System.Drawing.Point(0, 635);
+            this.btnAcercaDe.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAcercaDe.Name = "btnAcercaDe";
-            this.btnAcercaDe.Size = new System.Drawing.Size(99, 60);
+            this.btnAcercaDe.Size = new System.Drawing.Size(148, 92);
             this.btnAcercaDe.TabIndex = 7;
             this.btnAcercaDe.Text = "Acerca De";
             this.btnAcercaDe.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -158,9 +166,10 @@
             this.btnMantenimiento.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnMantenimiento.Image = ((System.Drawing.Image)(resources.GetObject("btnMantenimiento.Image")));
             this.btnMantenimiento.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnMantenimiento.Location = new System.Drawing.Point(0, 354);
+            this.btnMantenimiento.Location = new System.Drawing.Point(0, 545);
+            this.btnMantenimiento.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnMantenimiento.Name = "btnMantenimiento";
-            this.btnMantenimiento.Size = new System.Drawing.Size(99, 60);
+            this.btnMantenimiento.Size = new System.Drawing.Size(148, 92);
             this.btnMantenimiento.TabIndex = 6;
             this.btnMantenimiento.Text = "Mantenimiento";
             this.btnMantenimiento.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -173,9 +182,10 @@
             this.btnReportes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnReportes.Image = ((System.Drawing.Image)(resources.GetObject("btnReportes.Image")));
             this.btnReportes.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnReportes.Location = new System.Drawing.Point(0, 295);
+            this.btnReportes.Location = new System.Drawing.Point(0, 454);
+            this.btnReportes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnReportes.Name = "btnReportes";
-            this.btnReportes.Size = new System.Drawing.Size(99, 60);
+            this.btnReportes.Size = new System.Drawing.Size(148, 92);
             this.btnReportes.TabIndex = 5;
             this.btnReportes.Text = "Reportes";
             this.btnReportes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -188,9 +198,10 @@
             this.btnClientes.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnClientes.Image = ((System.Drawing.Image)(resources.GetObject("btnClientes.Image")));
             this.btnClientes.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnClientes.Location = new System.Drawing.Point(0, 236);
+            this.btnClientes.Location = new System.Drawing.Point(0, 363);
+            this.btnClientes.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnClientes.Name = "btnClientes";
-            this.btnClientes.Size = new System.Drawing.Size(99, 60);
+            this.btnClientes.Size = new System.Drawing.Size(148, 92);
             this.btnClientes.TabIndex = 4;
             this.btnClientes.Text = "Clientes";
             this.btnClientes.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -203,9 +214,10 @@
             this.btnProveedores.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnProveedores.Image = ((System.Drawing.Image)(resources.GetObject("btnProveedores.Image")));
             this.btnProveedores.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnProveedores.Location = new System.Drawing.Point(0, 177);
+            this.btnProveedores.Location = new System.Drawing.Point(0, 272);
+            this.btnProveedores.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnProveedores.Name = "btnProveedores";
-            this.btnProveedores.Size = new System.Drawing.Size(99, 60);
+            this.btnProveedores.Size = new System.Drawing.Size(148, 92);
             this.btnProveedores.TabIndex = 3;
             this.btnProveedores.Text = "Proveedores";
             this.btnProveedores.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -218,10 +230,11 @@
             this.btnCompras.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCompras.Image = ((System.Drawing.Image)(resources.GetObject("btnCompras.Image")));
             this.btnCompras.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnCompras.Location = new System.Drawing.Point(0, 118);
+            this.btnCompras.Location = new System.Drawing.Point(0, 182);
+            this.btnCompras.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCompras.Name = "btnCompras";
             this.btnCompras.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnCompras.Size = new System.Drawing.Size(99, 60);
+            this.btnCompras.Size = new System.Drawing.Size(148, 92);
             this.btnCompras.TabIndex = 2;
             this.btnCompras.Text = "Compras";
             this.btnCompras.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -234,9 +247,10 @@
             this.btnVentas.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnVentas.Image = ((System.Drawing.Image)(resources.GetObject("btnVentas.Image")));
             this.btnVentas.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnVentas.Location = new System.Drawing.Point(0, 59);
+            this.btnVentas.Location = new System.Drawing.Point(0, 91);
+            this.btnVentas.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnVentas.Name = "btnVentas";
-            this.btnVentas.Size = new System.Drawing.Size(99, 60);
+            this.btnVentas.Size = new System.Drawing.Size(148, 92);
             this.btnVentas.TabIndex = 1;
             this.btnVentas.Text = "Ventas";
             this.btnVentas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -253,8 +267,9 @@
             this.btnUsuario.Image = ((System.Drawing.Image)(resources.GetObject("btnUsuario.Image")));
             this.btnUsuario.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnUsuario.Location = new System.Drawing.Point(0, 0);
+            this.btnUsuario.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnUsuario.Name = "btnUsuario";
-            this.btnUsuario.Size = new System.Drawing.Size(99, 60);
+            this.btnUsuario.Size = new System.Drawing.Size(148, 92);
             this.btnUsuario.TabIndex = 0;
             this.btnUsuario.Text = "Usuarios";
             this.btnUsuario.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -263,72 +278,76 @@
             // 
             // pnlContenedor
             // 
-            this.pnlContenedor.Location = new System.Drawing.Point(103, 57);
+            this.pnlContenedor.Location = new System.Drawing.Point(153, 88);
+            this.pnlContenedor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlContenedor.Name = "pnlContenedor";
-            this.pnlContenedor.Size = new System.Drawing.Size(781, 505);
+            this.pnlContenedor.Size = new System.Drawing.Size(1172, 777);
             this.pnlContenedor.TabIndex = 2;
             // 
             // contextMenuStripMantenimiento
             // 
+            this.contextMenuStripMantenimiento.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.contextMenuStripMantenimiento.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.categoriaToolStripMenuItem,
             this.productoToolStripMenuItem,
             this.negocioToolStripMenuItem});
             this.contextMenuStripMantenimiento.Name = "contextMenuStripMantenimiento";
-            this.contextMenuStripMantenimiento.Size = new System.Drawing.Size(126, 70);
+            this.contextMenuStripMantenimiento.Size = new System.Drawing.Size(161, 100);
             // 
             // categoriaToolStripMenuItem
             // 
             this.categoriaToolStripMenuItem.Name = "categoriaToolStripMenuItem";
-            this.categoriaToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.categoriaToolStripMenuItem.Size = new System.Drawing.Size(160, 32);
             this.categoriaToolStripMenuItem.Text = "Categoria";
             this.categoriaToolStripMenuItem.Click += new System.EventHandler(this.categoriaToolStripMenuItem_Click);
             // 
             // productoToolStripMenuItem
             // 
             this.productoToolStripMenuItem.Name = "productoToolStripMenuItem";
-            this.productoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.productoToolStripMenuItem.Size = new System.Drawing.Size(160, 32);
             this.productoToolStripMenuItem.Text = "Producto";
             this.productoToolStripMenuItem.Click += new System.EventHandler(this.productoToolStripMenuItem_Click);
             // 
             // negocioToolStripMenuItem
             // 
             this.negocioToolStripMenuItem.Name = "negocioToolStripMenuItem";
-            this.negocioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.negocioToolStripMenuItem.Size = new System.Drawing.Size(160, 32);
             this.negocioToolStripMenuItem.Text = "Negocio";
             this.negocioToolStripMenuItem.Click += new System.EventHandler(this.negocioToolStripMenuItem_Click);
             // 
             // contextMenuStripReportes
             // 
+            this.contextMenuStripReportes.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.contextMenuStripReportes.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.comprasToolStripMenuItem,
             this.ventasToolStripMenuItem});
             this.contextMenuStripReportes.Name = "contextMenuStripReportes";
-            this.contextMenuStripReportes.Size = new System.Drawing.Size(123, 48);
+            this.contextMenuStripReportes.Size = new System.Drawing.Size(157, 68);
             // 
             // comprasToolStripMenuItem
             // 
             this.comprasToolStripMenuItem.Name = "comprasToolStripMenuItem";
-            this.comprasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.comprasToolStripMenuItem.Size = new System.Drawing.Size(156, 32);
             this.comprasToolStripMenuItem.Text = "Compras";
             this.comprasToolStripMenuItem.Click += new System.EventHandler(this.comprasToolStripMenuItem_Click);
             // 
             // ventasToolStripMenuItem
             // 
             this.ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
-            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(156, 32);
             this.ventasToolStripMenuItem.Text = "Ventas";
             this.ventasToolStripMenuItem.Click += new System.EventHandler(this.ventasToolStripMenuItem_Click);
             // 
             // frmInicio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
-            this.ClientSize = new System.Drawing.Size(884, 561);
+            this.ClientSize = new System.Drawing.Size(1326, 863);
             this.Controls.Add(this.pnlContenedor);
             this.Controls.Add(this.gbModulos);
             this.Controls.Add(this.gbEncabezado);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmInicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio";
