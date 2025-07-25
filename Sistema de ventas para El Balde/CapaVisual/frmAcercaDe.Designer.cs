@@ -34,18 +34,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(316, 219);
+            this.label1.Location = new System.Drawing.Point(421, 270);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(174, 13);
+            this.label1.Size = new System.Drawing.Size(217, 16);
             this.label1.TabIndex = 2;
-            this.label1.Text = "hola, soy el formulario de acerca de";
+            this.label1.Text = "hola, soy el formulario de acercade";
             // 
             // frmAcercaDe
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmAcercaDe";
             this.Text = "frmAcercaDe";
             this.ResumeLayout(false);

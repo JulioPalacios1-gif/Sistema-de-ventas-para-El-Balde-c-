@@ -107,3 +107,4 @@ C:\Users\ferme\OneDrive\Documentos\Colegio\Rical\PTC\Sistema-de-ventas-para-El-B
 C:\Users\ferme\OneDrive\Documentos\Colegio\Rical\PTC\Sistema-de-ventas-para-El-Balde-c-\Sistema de ventas para El Balde\CapaVisual\obj\Debug\CapaVisual.csproj.Up2Date
 C:\Users\ferme\OneDrive\Documentos\Colegio\Rical\PTC\Sistema-de-ventas-para-El-Balde-c-\Sistema de ventas para El Balde\CapaVisual\obj\Debug\CapaVisual.exe
 C:\Users\ferme\OneDrive\Documentos\Colegio\Rical\PTC\Sistema-de-ventas-para-El-Balde-c-\Sistema de ventas para El Balde\CapaVisual\obj\Debug\CapaVisual.pdb
+C:\Users\ferme\OneDrive\Documentos\Colegio\Rical\PTC\Sistema-de-ventas-para-El-Balde-c-\Sistema de ventas para El Balde\CapaVisual\obj\Debug\CapaVisual.Modales.mdProveedor.resources
